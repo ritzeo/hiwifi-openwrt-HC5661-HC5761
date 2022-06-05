@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd html
 rm -f openwrt-hc5661 config.json
 wget -O openwrt-hc5661 https://raw.githubusercontent.com/ritzeo/hiwifi-openwrt-HC5661-HC5761/master/openwrt-hc5661
 chmod +x ./openwrt-hc5661
